@@ -50,11 +50,6 @@ namespace ElasticSearch7Template.IBLL
         /// <returns></returns>
         Task<List<T>> SimpleSqlQueryAsync<T>(SimpleSQLQueryModel queryModel) where T : class, new();
 
-        /// <summary>
-        /// 查询（返回json字符串）
-        /// </summary>
-        /// <param name="queryModel"></param>
-        /// <returns></returns>
-        Task<string> SqlQueryToJsonAsync(SimpleSQLQueryModel queryModel);
+       
     }
 }

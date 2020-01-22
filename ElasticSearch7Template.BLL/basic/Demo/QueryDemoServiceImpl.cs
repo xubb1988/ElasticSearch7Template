@@ -69,14 +69,6 @@ namespace ElasticSearch7Template.BLL
             return await repository.SimpleSqlQueryAsync<T>(queryModel).ConfigureAwait(false);
         }
 
-        /// <summary>
-        /// 简单查询（返回json字符串）
-        /// </summary>
-        /// <param name="queryModel"></param>
-        /// <returns></returns>
-        public async Task<string> SqlQueryToJsonAsync(SimpleSQLQueryModel queryModel)
-        {
-            return await repository.SqlQueryToJsonAsync(queryModel).ConfigureAwait(false);
-        }
+        
     }
 }

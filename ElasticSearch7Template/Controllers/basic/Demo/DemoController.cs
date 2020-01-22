@@ -204,19 +204,7 @@ namespace ElasticSearch7Template.Controllers
             return Ok(queryResponse);
         }
 
-        /// <summary>
-        /// sql查询（返回json字符串，需es sql 支持，请查询官方文档）
-        /// </summary>
-        /// <param name="queryModel"></param>
-        /// <returns></returns>
-        [Route("SqlQueryToJson")]
-        [ProducesResponseType(typeof(string), 200)]
-        [HttpGet]
-        public async Task<ActionResult> SqlQueryToJsonAsync([FromQuery]SimpleSQLQueryModel queryModel)
-        {
-            var queryResponse = await queryDemoService.SqlQueryToJsonAsync(queryModel).ConfigureAwait(false);
-            return Ok(queryResponse);
-        }
+         
 
     }
 }

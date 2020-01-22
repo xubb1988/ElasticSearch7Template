@@ -191,7 +191,6 @@ namespace ElasticSearch7Template.DAL
             for (int n = 0; n < propertyInfos.Length; n++)
             {
                 //A.B.C 最后一个C是属性，前面的是类
-
                 var classInfo = column.Name.Split('.');
                 string childFirstClass = classInfo[0];
                 string childField = classInfo[classInfo.Length - 1];
@@ -206,12 +205,8 @@ namespace ElasticSearch7Template.DAL
                             var childType = propertyInfos[n].PropertyType;//myclass
                             var childEntityClass = childType.Assembly.CreateInstance(childType.FullName, true);
                             var popchilds = childType.GetProperties(BindingFlags.Instance | BindingFlags.IgnoreCase | BindingFlags.Public | BindingFlags.NonPublic);
-                            //  var popchild = popchilds.First(t => t.Name.ToLower() == childField.ToLower());
-                            //  var emitSetter = EmitHelper.CreatePropertiesFunc(popchilds);
-                            // popchild.SetValue(childEntityClass, childValue);
                             propertyInfos[n].SetValue(entity, childEntityClass);
                             GetChildProperty(childEntityClass, popchilds, property, column, val);
-                            ;
                         }
 
                     }
@@ -248,7 +243,6 @@ namespace ElasticSearch7Template.DAL
             jsonString.Append("[");
             for (int i = 0; i < rows.Count; i++)
             {
-
                 var row = rows[i];
                 jsonString.Append("{");
                 for (int j = 0; j < colunms.Count; j++)
