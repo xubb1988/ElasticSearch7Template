@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ElasticSearch7Template.IDAL</AssemblyName>
+    <RootNamespace>ElasticSearch7Template.IDAL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElasticSearch7Template.Core\ElasticSearch7Template.Core.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Entity\ElasticSearch7Template.Entity.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Model\ElasticSearch7Template.Model.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Utility\ElasticSearch7Template.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

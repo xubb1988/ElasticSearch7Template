@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EAS.Service.Auth.Model</name>
+    </assembly>
+    <members>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseBusinessDictionaryTypeCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseBusinessDictionaryCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseEmployeeJobRelationCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseEmployeeCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseJobCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseMenuFunctionCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.BaseMenuFunctionCondition.Id">
+            <summary>
+             主键
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.BaseMenuFunctionCondition.MenuId">
+            <summary>
+             菜单页面id
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseMenuCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseOrganizationCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseRoleMenuRelationCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseRoleCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseSystemCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseUserMenuRelationCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseUserRoleRelationCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseUserScreenFunctionCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.Conditions.BaseUserCondition">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.User.UpdatePasswordCondition.Id">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.User.UpdatePasswordCondition.OldPassword">
+            <summary>
+            当前密码
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.User.UpdatePasswordCondition.NewPassword">
+            <summary>
+            X新密码
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.Conditions.User.UpdatePasswordCondition.ConfirmPassword">
+            <summary>
+            确认新密码
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.BusinessDictionaryTypeConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.BusinessDictionaryConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.EmployeeJobRelationConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.EmployeeConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.JobConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.MenuFunctionConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.MenuFunctionConditionDTO.Id">
+            <summary>
+             主键
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.MenuFunctionConditionDTO.MenuId">
+            <summary>
+             菜单页面id
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.MenuConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.OrganizationConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.RoleMenuRelationConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.RoleConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.SystemConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.UserMenuRelationConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.UserRoleRelationConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.UserScreenFunctionConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.ChangePasswordDTO.Id">
+            <summary>
+            用户id
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.ChangePasswordDTO.OldPassword">
+            <summary>
+            当前密码
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.ChangePasswordDTO.NewPassword">
+            <summary>
+            X新密码
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.ChangePasswordDTO.ConfirmPassword">
+            <summary>
+            确认新密码
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.UpdateEnabledBatchDTO.IdList">
+            <summary>
+            id集合
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.UpdateEnabledBatchDTO.IsEnabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.UserAuthenticateDTO.UserName">
+            <summary>
+            工号
+            </summary>
+        </member>
+        <member name="P:EAS.Service.Auth.Model.DTOS.User.UserAuthenticateDTO.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:EAS.Service.Auth.Model.DTOS.UserConditionDTO">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

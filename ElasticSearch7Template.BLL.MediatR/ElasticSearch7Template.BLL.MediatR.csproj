@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ElasticSearch7Template.BLL.MediatR</AssemblyName>
+    <RootNamespace>ElasticSearch7Template.BLL.MediatR</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MediatRService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElasticSearch7Template.Core\ElasticSearch7Template.Core.csproj" />
+  </ItemGroup>
+
+</Project>

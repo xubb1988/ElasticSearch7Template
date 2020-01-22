@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ElasticSearch7Template.DAL</AssemblyName>
+    <RootNamespace>ElasticSearch7Template.DAL</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElasticSearch7Template.Core\ElasticSearch7Template.Core.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Entity\ElasticSearch7Template.Entity.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.IDAL\ElasticSearch7Template.IDAL.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Model\ElasticSearch7Template.Model.csproj" />
+    <ProjectReference Include="..\ElasticSearch7Template.Utility\ElasticSearch7Template.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

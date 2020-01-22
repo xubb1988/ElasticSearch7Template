@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApiTemplate.Entity</name>
+    </assembly>
+    <members>
+        <member name="P:NetCoreWebApiTemplate.Entity.BaseField.IsDeleted">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApiTemplate.Entity.BaseField.CreaterId">
+            <summary>
+            添加人
+            </summary>
+            
+        </member>
+        <member name="P:NetCoreWebApiTemplate.Entity.BaseField.CreateTime">
+            <summary>
+            添加时间
+            </summary>
+            
+        </member>
+        <member name="P:NetCoreWebApiTemplate.Entity.BaseField.ModifierId">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:NetCoreWebApiTemplate.Entity.BaseField.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+    </members>
+</doc>
